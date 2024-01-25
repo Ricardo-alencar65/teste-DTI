@@ -1,0 +1,146 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; 
+    background-color: #CCD5D7;
+}
+
+.home-page {
+    width: 1000px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-image: linear-gradient(#FFFAFA, #F9EAE8);
+    text-align: center;
+    justify-content: center;
+
+    
+}
+.container-pesquisa{
+    display: flex;
+}
+.texto-principal{
+    font-size: 23px;
+    margin-top: 30px;
+    white-space: nowrap;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.container-input{
+    text-align: left;
+}
+
+.input-group {
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    width: 60%;
+}
+ label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.inputs {
+    background-color: #FBF1F1;
+    border: 1.5px solid #C0A29C;
+    border-radius: 12px;
+    width: 153%;
+    padding-left: 13px;
+    padding-right: 15px;
+    height: 40px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+
+}
+.inputs[type="date"]{
+height: 42px;
+}
+.resultado {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    border-top: 1px solid #6f6969; 
+  }
+
+.resultado h2 {
+    margin-bottom: 5px;
+    color: #758A86;
+}
+
+.resultado p {
+    color: #666;
+}
+.imagem-cachorro{
+    width: 200px;
+}
+.botao{
+    width: 105%;
+    padding: 12px;
+    border: none;
+    background-color: #758A86;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 43px;
+}
+.resultado-preco{
+    font-size: 20px;
+}
+.ouro-pastel {
+    color: #e3b732;
+  }
+  
+  .prata-pastel {
+    color: #c0c0c0;
+  }
+  
+  .bronze-pastel {
+    color: #cd7f32;
+  }
+  .resultado {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.resultado div {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input-group label {
+    white-space: nowrap;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
