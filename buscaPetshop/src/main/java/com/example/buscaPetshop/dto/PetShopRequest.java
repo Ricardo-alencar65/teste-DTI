@@ -7,7 +7,7 @@ public class PetShopRequest {
     private int quantidadeCaesPequenos;
     private int quantidadeCaesGrandes;
 
-    // Getters e Setters
+
     public LocalDate getData() {
         return data;
     }
